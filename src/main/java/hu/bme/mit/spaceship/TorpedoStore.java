@@ -27,14 +27,14 @@ public class TorpedoStore {
       }
     }
   }
-  //jo lesz ez igy
+  // javitva
   private Random generator = new Random();
   public boolean fire(int numberOfTorpedos){
     if(numberOfTorpedos < 1 || numberOfTorpedos > this.torpedoCount){
      throw new IllegalArgumentException("numberOfTorpedos");
     }
 
-
+      //itt is javitva
     boolean success = false;
 
     // simulate random overheating of the launcher bay which prevents firing
