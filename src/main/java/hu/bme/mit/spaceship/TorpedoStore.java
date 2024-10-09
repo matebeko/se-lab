@@ -27,12 +27,13 @@ public class TorpedoStore {
       }
     }
   }
-
+  //jo lesz ez igy
   private Random generator = new Random();
   public boolean fire(int numberOfTorpedos){
     if(numberOfTorpedos < 1 || numberOfTorpedos > this.torpedoCount){
      throw new IllegalArgumentException("numberOfTorpedos");
     }
+
 
     boolean success = false;
 
